@@ -4,8 +4,13 @@
 
     <default revision="master" remote="github" />
 
-    <project path="helloworld/repo"
+    <project path="demo/helloworld"
         name="zhengfish/helloworld.git"
+        remote="github"
+        revision="refs/heads/master" />
+
+    <project path="src/examples"
+        name="zhengfish/examples.git"
         remote="github"
         revision="refs/heads/master" />
 </manifest>
